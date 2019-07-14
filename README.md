@@ -4,7 +4,7 @@ This is a team project to build the FrontEnd of the Learning Managment System fo
 
 
 ## General Info
-The main porpuse of this project is creat a tailormade LMS for the teachers, students and the administration people of the [It-Academy](https://cibernarium.barcelonactiva.cat/it-academy).
+The main purpose of this project is create a tailormade LMS for the teachers, students and the administration people of the [It-Academy](https://cibernarium.barcelonactiva.cat/it-academy).
 
 [First-mockup](https://ninjamock.com/s/RCNDMDx)
 
