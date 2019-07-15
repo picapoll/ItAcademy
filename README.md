@@ -60,6 +60,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 5. Create a new Pull Request
 
 # Contributors
-[Citlas](https://github.com/citlas)
+
 
 
