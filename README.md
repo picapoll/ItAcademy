@@ -64,4 +64,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [Citlas](https://github.com/citlas/)
 
 [first Commit](https://github.com/citlas/)
-[Dev Commit](https://github.com/citlas/)
+[Dev and Master Commit](https://github.com/citlas/) 
+[Dev 2 Commit](https://github.com/citlas/)
+
