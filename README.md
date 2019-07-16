@@ -67,10 +67,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [Dev and Master Commit](https://github.com/citlas/) 
 [Dev 2 Commit](https://github.com/citlas/)
 [Dev 3 Commit](https://github.com/luciana/)
-<<<<<<< .merge_file_a08872
+
 [Dev-luciana 4 Commit](https://github.com/luciana/)
-=======
+
 branch citla
-
->>>>>>> .merge_file_a13700
-
