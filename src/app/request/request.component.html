@@ -1,0 +1,50 @@
+<section class="container-fluid">
+    <article class="row justify-content-around">
+      <div class="col-5 text-center">
+        <h2>Subir Datos</h2>
+        
+        <form #new_user="ngForm" (ngSubmit)="onSubmit(new_user)" class="row justify-content-around">
+          <p class="col-8"> La Api-Rest ReqRes solo nos permite agregar dos variables a la base de datos de users, que son: name y job (en este caso nombre e itinerario).</p>
+          <label class="col-8" for="name">Nombre</label>
+          <input class="col-8 casilla" type="text" name="name" #name="ngModel" [(ngModel)]="newUser.name" >
+  
+          <label class="col-8" for="job">Itinerario</label>
+          <input class="col-8 casilla" id="jobPost" type="text" name="job" #job="ngModel" [(ngModel)]="newUser.job" >
+
+          <div class="col-8">
+            <button type="submit">Up!</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-5 text-center">
+        <h2>Pedir Datos</h2>
+        <div class="row justify-content-around">
+          
+          <p class="col-8"> Se debe introducir un número del 1 al 12, ya que en la API solo tienen 12 usuarios creados.</p>
+          <label class="col-8" for="id">Id</label>
+          <input class="col-8 casilla" id="idGet" type="text" [(ngModel)]="userId">
+          <div class="col-8">
+            <button (click)="downUser(userId)">Request!</button>
+          </div>
+        
+        </div>
+      </div>
+    </article>
+    <article class="row justify-content-around">
+      <div class="col-5 text-center" *ngIf="newUserId">
+        <h3>Datos Subidos</h3>
+        <p>Esto nos devuelve el nombre el itinerario, y nos genera un Id i una fecha de creación</p>
+        <h5>Nombre: {{newUserId.name}}</h5>
+        <h6>Itinerario: {{newUserId.job}}</h6>
+        <h6>Id: {{newUserId.id}}</h6>
+        <h6>Fecha: {{newUserId.createdAt}}</h6>
+      </div>
+      <div class="col-5 text-center" *ngIf="user">
+        <h3>Datos Bajados</h3>
+          <img src="{{user.avatar}}"/>
+          <h5>{{user.first_name}} {{user.last_name}}</h5>
+          <h6>{{user.email}}</h6>
+          <h6>Id:{{user.id}}</h6>
+      </div>
+    </article>
+  </section>
