@@ -69,5 +69,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [Dev 3 Commit](https://github.com/luciana/)
 
 [Dev-luciana 4 Commit](https://github.com/luciana/)
-
-branch citla
+[Dev-pol Commit](https://github.com/mrploman/)
+branch pol
