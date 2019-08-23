@@ -1,4 +1,4 @@
-# The project was moved to another it-academyproject GitHub: https://github.com/it-academyproject/IT-Project-Web 
+The project was moved to another it-academyproject GitHub: https://github.com/it-academyproject/IT-Project-Web 
 
 ![It-Academy Barcelona Activa](https://cibernarium.barcelonactiva.cat/image/company_logo?img_id=11105&t=1561545634790)
 # ItAcademy FrontEnd Project
